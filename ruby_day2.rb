@@ -1,5 +1,5 @@
 def Even_Or_Odd(a)
-  if(a %2== 0)
+  if a %2== 0
     puts("#{a} is even number")
 
   else
@@ -8,41 +8,44 @@ def Even_Or_Odd(a)
 
 end
 
-#Even_Or_Odd(11)
+# Even_Or_Odd(11)
 
 
 def Print_Name(name)
   puts ("#{name}")
   end
 
-#Print_Name("sravani")
+# Print_Name("sravani")
 
-def Print_Array(a)
-  even=[]
-  odd=[]
+def print_array(a)
+  even = []
+  odd = []
   a.each do |i|
-    if(i%2==0)
-      even<<(i)
+
+    if i%2 == 0
+      even << i
     else
-      odd<<(i)
+      odd << i
 
     end
   end
   puts(even)
   puts(odd)
-  puts("sravani")
+  # puts('sravani')
 end
 
-#Print_Array([1,2,3,4,5,6])
+print_array([1,2,3,4,5,6])
 
-def Print_Names(family_names)
-  family_names.each do |names|
+def print_names(family_names)
+  family_names.each do |name| # for name in family_names
 
+  puts name # puts(name)(python syntax)
   end
-  puts family_names
 
 end
 
-#Print_Names(["mummy","pradeep","sravani","daddy","pavan",])
+
+print 1.even?
+# print_names(["mummy","pradeep","sravani","daddy","pavan"])
 
 
