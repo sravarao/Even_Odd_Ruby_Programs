@@ -4,6 +4,8 @@ end
 def new_function
 
   puts('hi')
+  puts('hello sravani and pradeep')
+  puts('hello world')
 
 end
 
